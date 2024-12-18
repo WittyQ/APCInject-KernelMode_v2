@@ -1,0 +1,37 @@
+﻿  Building 'APCInject-DriverMode' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\APCInject-DriverMode.inf
+  Stamping [Version] section with DriverVer=12/18/2024,16.17.50.904
+C:\Users\wqwu\Desktop\Sample\APCInject-KernelMode_v1\APCInject-DriverMode\APCInject-DriverMode.inf(1-1): warning 1324: [Version] section should specify PnpLockdown=1 to prevent external apps from modifying installed driver files.
+C:\Users\wqwu\Desktop\Sample\APCInject-KernelMode_v1\APCInject-DriverMode\APCInject-DriverMode.inf(16-16): warning 2083: Section [apcinjectdriver_serviceinstall] not referenced or used.
+  Inject.c
+C:\Users\wqwu\Desktop\Sample\APCInject-KernelMode_v1\APCInject-DriverMode\Inject.c(10,54): warning C4133: 'function': incompatible types - from 'unsigned short [20]' to 'PCSTR'
+C:\Users\wqwu\Desktop\Sample\APCInject-KernelMode_v1\APCInject-DriverMode\Inject.c(324,12): warning C4456: declaration of 'Status' hides previous local declaration
+      C:\Users\wqwu\Desktop\Sample\APCInject-KernelMode_v1\APCInject-DriverMode\Inject.c(282,11):
+      see declaration of 'Status'
+  
+C:\Users\wqwu\Desktop\Sample\APCInject-KernelMode_v1\APCInject-DriverMode\Inject.c(458,31): warning C4133: 'function': incompatible types - from 'UNICODE_STRING *' to 'WCHAR *'
+C:\Users\wqwu\Desktop\Sample\APCInject-KernelMode_v1\APCInject-DriverMode\Inject.c(520,48): warning C4267: '=': conversion from 'size_t' to 'USHORT', possible loss of data
+C:\Users\wqwu\Desktop\Sample\APCInject-KernelMode_v1\APCInject-DriverMode\Inject.c(523,35): warning C4996: 'ExAllocatePoolWithTag': ExAllocatePoolWithTag is deprecated, use ExAllocatePool2.
+C:\Users\wqwu\Desktop\Sample\APCInject-KernelMode_v1\APCInject-DriverMode\Inject.c(567,23): warning C4100: 'RegistryPath': unreferenced formal parameter
+C:\Users\wqwu\Desktop\Sample\APCInject-KernelMode_v1\APCInject-DriverMode\Inject.c(391,1): warning C4702: unreachable code
+C:\Users\wqwu\Desktop\Sample\APCInject-KernelMode_v1\APCInject-DriverMode\Inject.c(400,1): warning C4702: unreachable code
+C:\Users\wqwu\Desktop\Sample\APCInject-KernelMode_v1\APCInject-DriverMode\Inject.c(403,1): warning C4702: unreachable code
+  APCInject-DriverMode.vcxproj -> C:\Users\wqwu\Desktop\Sample\APCInject-KernelMode_v1\APCInject-DriverMode\x64\Debug\APCInject-DriverMode.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\wqwu\Desktop\Sample\APCInject-KernelMode_v1\APCInject-DriverMode\x64\Debug\APCInject-DriverMode.sys
+  
+  Driver is 'Universal'.
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\wqwu\Desktop\Sample\APCInject-KernelMode_v1\APCInject-DriverMode\x64\Debug\APCInject-DriverMode\apcinject-drivermode.cat
+  Done Adding Additional Store
+  Successfully signed: C:\Users\wqwu\Desktop\Sample\APCInject-KernelMode_v1\APCInject-DriverMode\x64\Debug\APCInject-DriverMode\apcinject-drivermode.cat
+  
